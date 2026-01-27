@@ -26,7 +26,7 @@ long c = a + b; // int → long
 
 **_Rule 3: If one operand is float, result becomes float_**
 
-````
+```
 int a = 10;
 float b = 5.5f;
 
@@ -37,13 +37,11 @@ float c = a + b; // int → float
 
 Highest priority wins.
 
-````
-
+```
 float a = 10.5f;
 double b = 20.3;
 
 double c = a + b; // float → double
-
 ```
 
 **Type Promotion Priority Order**
@@ -51,10 +49,7 @@ double c = a + b; // float → double
 (Java follows this strictly)
 
 ```
-
 byte → short → int → long → float → double
-
 ```
 
 Lower → promoted to higher automatically.
-```
